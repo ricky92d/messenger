@@ -1,0 +1,63 @@
+body{
+    background: lightgray;
+}
+
+.messenger-app{
+    width: 800px;
+    height: 800px;
+    background-color: grey;
+    border: 2px solid black;
+
+    margin: 0 auto;
+}
+
+
+.message-box{
+    width: 600px;
+    height: 500px;
+    margin: 0 auto;
+    margin-top: 50px;
+    background-color: white;
+    border: 1px solid black;
+    overflow: scroll;
+}
+
+.text-box{
+    width: 600px;
+    height: 100px;
+    margin: 0 auto;
+    margin-top: 50px;
+    background-color: white;
+    border: 1px solid black;
+}
+
+.text-box form{
+    height: 100%;
+    width: 100%;
+}
+
+.text-box textarea{
+    height: 100%;
+    width: 100%;
+}
+
+.send-button{
+    margin-top: 10px;
+    margin-left: 600px;
+    width: 150px;
+    height: 40px;
+    background-color: orange;
+    padding-top: 10px;
+    text-align: center;
+    font-size: larger;
+    opacity: 0.7;
+}
+
+.send-button:hover{
+    opacity: 1;
+    cursor: pointer;
+}
+
+.app-title{
+
+}
